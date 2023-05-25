@@ -109,7 +109,7 @@ const NavBar = () => {
             </motion.a>
         <button
         onClick={() => setMode(mode === "light" ? "dark" : "light")}
-        className={`ml-3 flex items-center justify-center rounded-full p-1
+        className={`flex items-center justify-center rounded-full w-6 mx-3 flex-wrap
         ${mode === "light" ? "bg-dark text-light" : "bg-light text-dark"}`}
         >
             {
@@ -165,7 +165,7 @@ const NavBar = () => {
             </motion.a>
         <button
         onClick={() => setMode(mode === "light" ? "dark" : "light")}
-        className={`ml-3 flex items-center justify-center rounded-full p-1
+        className={`flex items-center justify-center rounded-full w-6 mx-3 flex-wrap
         ${mode === "light" ? "bg-dark text-light" : "bg-light text-dark"}`}
         >
             {
