@@ -60,8 +60,7 @@ export default function Home() {
                   rounded-lg text-lg font-semibold hover:bg-light hover:text-dark
                   border-1 border-solid border-transparent hover:border-dark
                   dark:bg-light dark:text-dark hover:dark:bg-dark hover:dark:text-light
-                  hover:dark:border-light md:p-2 md:px-4 md:text-base sm:p-1.5 sm:px-2 sm:text-sm
-                  xs:p-1 xs:px-2 xs:text-xs
+                  hover:dark:border-light md:p-2 md:px-4 md:text-base
                   "
                   download={true}
                 >
