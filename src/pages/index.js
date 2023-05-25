@@ -58,7 +58,7 @@ export default function Home() {
                   target={"_blank"}
                   className="flex items-center bg-dark text-light p-2.5 px-6
                   rounded-lg text-lg font-semibold
-                  border-1 border-solid border-transparent hover:border-dark
+                  border-1 border-solid border-transparent
                   dark:bg-light dark:text-dark md:p-2 md:px-4 md:text-base sm:p-1.5 sm:px-2 sm:text-sm
                   xs:p-1 xs:px-2 xs:text-xs
                   "
