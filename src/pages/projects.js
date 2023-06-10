@@ -153,9 +153,9 @@ const projects = () => {
               <FeaturedProject
                 title="Portfolio Website"
                 img={project1}
-                summary="A portfolio website created using React, NodeJS, HTML, CSS, Tailwind CSS and Framer Motion. 
+                summary="A portfolio website created using React, NodeJS, NextJS, HTML, CSS, Tailwind CSS and Framer Motion. 
                     It is to display my credentials and also all my experiences and life stories with like-minded individuals."
-                link="/"
+                link="https://richmondsin.vercel.app"
                 github="https://github.com/richmondsin"
                 type="Featured Project"
               />
@@ -182,11 +182,11 @@ const projects = () => {
             </div>
             <div className="col-span-12">
               <FeaturedProject
-                title="Rentronics"
+                title="Richify"
                 img={project4}
-                summary="A full stack web app using React, HTML, CSS, Flask, and PostgreSQL. 
-                      It allows user to rent electronics from other people and be able to list their electronics for rent."
-                link="/"
+                summary="A full stack music website created using React, Stripe, Supabase, PostgreSQL and Tailwind CSS. 
+                      It allows user to add and stream their own music or music added by the community on the platform."
+                link="https://richify-music.vercel.app"
                 github="https://github.com/richmondsin"
                 type="Featured Project"
               />
