@@ -8,7 +8,7 @@ import { GithubIcon } from "@/components/Icons";
 import project1 from "../../public/images/projects/project1.png";
 import project2 from "../../public/images/projects/featured.jpg";
 import project3 from "../../public/images/projects/featured.jpg";
-import project4 from "../../public/images/projects/rentronics.jpg";
+import project4 from "../../public/images/projects/richify.png";
 import project5 from "../../public/images/projects/featured.jpg";
 import project6 from "../../public/images/projects/featured.jpg";
 import { motion } from "framer-motion";
