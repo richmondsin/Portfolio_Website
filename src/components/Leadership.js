@@ -25,7 +25,7 @@ const Details = ({ type, time, place, info }) => {
   );
 };
 
-const Education = () => {
+const Leadership = () => {
   const ref = useRef(null);
   const { scrollYProgress } = useScroll({
     target: ref,
@@ -33,7 +33,7 @@ const Education = () => {
   });
   return (
     <div className="my-64">
-      <h2 className="font-bold text-8xl mb-32 w-full text-center md:text-6xl xs:text-4xl md:mb-16">Education</h2>
+      <h2 className="font-bold text-8xl mb-32 w-full text-center md:text-6xl xs:text-4xl md:mb-16">Leadership</h2>
       <div ref={ref} className="w-[75%] mx-auto relative lg:w-[90%] md:w-full">
         <motion.div
           style={{ scaleY: scrollYProgress }}
@@ -41,39 +41,27 @@ const Education = () => {
           md:w-[2px] md:left-[30px] xs:left-[20px]
           "
         />
-        <u1 className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2"> 
-          {/* <Details
-            type="Masters Of Science, Data Science & Machine Learning"
-            time="2024-2025"
+        <u1 className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2">
+          <Details
+            type="42nd Science Club Management Committee, President"
+            time="Sep 2021-Sep 2022"
             place="National University of Singapore (NUS)"
-            info="Relevant courses included Machine Learning, and Artificial Intelligence."
+            info="Planned and led a total of 54 faculty-wide events with 183 subcommittee members to enhance student life in NUS Faculty of Science
+            | Represented Science students in the NUS Student Union meeting with all faculty Presidents in NUS to enact NUS-wide initiatives such as implementing P-Card for large transactions to improve constituent club financial processes
+            | Planned and organized club meetings and discussions to improve student life in Faculty of Science"
           />
           <Details
-            type="PhD, Data Science"
-            time="2025-2029"
-            place="National University of Singapore (NUS)"
-            info="Relevant courses included Machine Learning, and Artificial Intelligence."
-          /> */}
-          <Details
-            type="Bachelor Of Science (Hons), Data Science & Analytics"
-            time="2021-2024"
-            place="National University of Singapore (NUS)"
-            info="Relevant courses included Data Visualization, Data Engineering, 
-            Data Structures and Algorithms, Machine Learning, and Artificial Intelligence 
-            | Specialization in Operations Research"
-          />
-          <Details
-            type="Science"
-            time="2017-2018"
+            type="34th Anderson Junior College Students' Council, President"
+            time="May 2017-Sep 2018"
             place="Anderson Junior College (AJC)"
-            info="Relevant subjects included H3 Pharmaceutical Chemistry, H2 Physics, H2 Chemistry,
-            H2 Mathematics, H1 Economics, H1 Project Work, and H1 General Paper"
+            info="Initiated planning of over 20 school events together with 27 council members to serve 1,200 students in Anderson JC
+            | Spearheaded various functions representing AJC such as inter-school council meeting and presidential forums for leadership
+            | Planned the merged orientation with Serangoon JC for 1,000 incoming J1s for the new Anderson Serangoon JC"
           />
-          
         </u1>
       </div>
     </div>
   );
 };
 
-export default Education;
+export default Leadership;

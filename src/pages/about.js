@@ -10,6 +10,7 @@ import Experience from "@/components/Experience";
 import Education from "@/components/Education";
 import TransitionEffect from "@/components/TransitionEffect";
 import Award from "@/components/Award";
+import Leadership from "@/components/Leadership";
 
 const AnimatedNumbers = ({ value }) => {
   const ref = useRef(null);
@@ -120,6 +121,7 @@ const about = () => {
           <Skills />
           <Experience />
           <Education />
+          <Leadership />
           <Award />
         </Layout>
       </main>

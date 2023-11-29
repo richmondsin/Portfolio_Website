@@ -63,13 +63,13 @@ const Award = () => {
           <Details
             type="Non Mihi Solum Award"
             time="2019"
-            place="Anderson Junior College"
+            place="Anderson Junior College (AJC)"
             info='The Non Mihi Solum award which stands for "Not for Myself Alone" is given to only 1 student of each cohort, who displayed exemplary character and embodied the school motto of Non Mihi Solum while serving the community and the school'
           />
           <Details
             type="Valedictorian for the Class of 2018"
             time="2019"
-            place="Anderson Junior College"
+            place="Anderson Junior College (AJC)"
             info='The Valedictorian award is given to the top student of each cohort, with meritorious academic achievement and excellent character'
           />
           <Details
@@ -81,7 +81,7 @@ const Award = () => {
           <Details
             type="Outstanding Leaders Award (OLA)"
             time="2018"
-            place="Anderson Junior College"
+            place="Anderson Junior College (AJC)"
             info='The award is to recognize students who have contributed immensely and also displayed excellent leadership in their respective CCAs'
           />
           <Details
