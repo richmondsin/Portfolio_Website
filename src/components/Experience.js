@@ -54,6 +54,15 @@ const Experience = () => {
         />
         <u1 className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2">
           <Details
+            position="Undergraduate Teaching Assistant"
+            company="National University of Singapore (NUS)"
+            companyLink="https://nus.edu.sg/"
+            time="Aug 2023-Dec 2023"
+            address="21 Lower Kent Ridge Road, Singapore"
+            work="Taught a class of 37 students for the module CS2040: Data Structure and Algorithms
+            | It covers data structures (linked lists, stacks, queues, hash tables, binary heaps, trees, and graphs), searching and sorting algorithms, and analysis of algorithms"
+          />
+          <Details
             position="Data and AI Intern"
             company="International Business Machines (IBM)"
             companyLink="https://www.ibm.com/us-en/"
