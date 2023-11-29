@@ -5,11 +5,11 @@ import Layout from "@/components/Layout";
 import Link from "next/link";
 import Image from "next/image";
 import { GithubIcon } from "@/components/Icons";
-import project1 from "../../public/images/projects/project1.png";
-import project2 from "../../public/images/projects/featured.jpg";
-import project3 from "../../public/images/projects/featured.jpg";
+import project1 from "../../public/images/projects/portfolio.png";
+import project2 from "../../public/images/projects/feedback.png";
+import project3 from "../../public/images/projects/job.png";
 import project4 from "../../public/images/projects/richify.png";
-import project5 from "../../public/images/projects/featured.jpg";
+import project5 from "../../public/images/projects/sentiment.png";
 import project6 from "../../public/images/projects/featured.jpg";
 import { motion } from "framer-motion";
 import TransitionEffect from "@/components/TransitionEffect";
@@ -162,19 +162,21 @@ const projects = () => {
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
-                title="Project 2"
+                title="SaaS AI Platform"
                 img={project2}
-                summary=""
-                link="/"
+                summary="A website created using NextJS, TypeScript, Tailwind CSS, Watsonx.ai, OpenAI GPT, Replica AI, Stripe, and PlanetScale. 
+                    It is a SaaS AI platform that provide users with multiple AI models to generate text, images, videos, music, and codes."
+                link="https://feedback-app-dusky.vercel.app"
                 github="https://github.com/richmondsin"
                 type="Featured Project"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
-                title="Project 3"
+                title="Retrieval Augemented Generation for Job Matching"
                 img={project3}
-                summary=""
+                summary="A website created using Streamlit, ChromaDB, Watsonx.ai, LangChain, and HuggingFace. 
+                    It is a website that allows users to upload their resume and match them with the most suitable and relevant jobs for the company."
                 link="/"
                 github="https://github.com/richmondsin"
                 type="Featured Project"
@@ -182,7 +184,7 @@ const projects = () => {
             </div>
             <div className="col-span-12">
               <FeaturedProject
-                title="Richify"
+                title="Richify Music"
                 img={project4}
                 summary="A full stack music website created using React, Stripe, Supabase, PostgreSQL and Tailwind CSS. 
                       It allows user to add and stream their own music or music added by the community on the platform."
@@ -193,9 +195,10 @@ const projects = () => {
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
-                title="Project 5"
+                title="Customer Feedback Sentiment Analysis"
                 img={project5}
-                summary=""
+                summary="A website created using HTML, CSS, PostgreSQL, and Watsonx.ai. 
+                    It is a website that allows users to provide their customer feedback and the AI model will provide sentiment analysis of the feedback to the company."
                 link="/"
                 github="https://github.com/richmondsin"
                 type="Featured Project"

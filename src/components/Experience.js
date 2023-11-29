@@ -54,6 +54,26 @@ const Experience = () => {
         />
         <u1 className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2">
           <Details
+            position="Data and AI Intern"
+            company="International Business Machines (IBM)"
+            companyLink="https://www.ibm.com/us-en/"
+            time="Aug 2023-Dec 2023"
+            address="Marina Bay Financial Tower 2, Singapore"
+            work="Contributed to the IBM Data and AI team by exploring and building AI models with the new Watsonx.ai platform
+            | Conduct exploratory data analysis, refine ML algorithms, and deploy AI solutions, including NLP models, driving actionable insights and improved business outcomes for clients
+            | Collaborated with a cross-functional team of Data Scientists, Architects, and Software Engineers to construct and deploy machine learning solutions, solving complex enterprise-scale problems"
+          />
+          <Details
+            position="Machine Learning Intern"
+            company="Agency for Science, Technology & Research (A*STAR)"
+            companyLink="https://www.a-star.edu.sg/"
+            time="May 2023-Dec 2023"
+            address="I2R, Singapore"
+            work="Contributed to the Wound Healing Prediction with Machine Learning project as part of a joint attachment with A*STAR and SRIS
+            | Developed predictive models using machine learning algorithms such as kNN, logistic regression, Naive Bayes, Random Forest, XGboost, Gradient Boosting, and LightGBM
+            | Utilized Python libraries including scikit-learn, Keras, and TensorFlow for model development and training"
+          />
+          <Details
             position="Research Analyst"
             company="Skin Research Institute of Singapore (SRIS)"
             companyLink="https://www.a-star.edu.sg/sris"
@@ -64,18 +84,8 @@ const Experience = () => {
             | Experienced in applying statistical analysis techniques such as regression analysis and hypothesis testing to draw insights from data"
           />
           <Details
-            position="Machine Learning"
-            company="Agency for Science, Technology & Research (A*STAR)"
-            companyLink="https://www.a-star.edu.sg/"
-            time="May 2023-Dec 2023"
-            address="I2R, Singapore"
-            work="Contributed to the Wound Healing Prediction with Machine Learning project as part of a joint attachment with A*STAR and SRIS
-            | Developed predictive models using machine learning algorithms such as kNN, logistic regression, Naive Bayes, Random Forest, XGboost, Gradient Boosting, and LightGBM
-            | Utilized Python libraries including scikit-learn, Keras, and TensorFlow for model development and training"
-          />
-          <Details
             position="Data Analyst and Corporate Planning Intern"
-            company="EDBI"
+            company="Economic Development Board Investment (EDBI)"
             companyLink="https://edbi.com/home/"
             time="Nov 2022-Feb 2023"
             address="250 North Bridge Road, Singapore"

@@ -41,14 +41,7 @@ const Education = () => {
           md:w-[2px] md:left-[30px] xs:left-[20px]
           "
         />
-        <u1 className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2">
-          <Details
-            type="Bachelor Of Science (Hons), Data Science & Analytics"
-            time="2021-2024"
-            place="National University of Singapore (NUS)"
-            info="Relevant courses included Data Visualization, Data Engineering, 
-            Data Structures and Algorithms, Machine Learning, and Artificial Intelligence."
-          />
+        <u1 className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2"> 
           {/* <Details
             type="Masters Of Science, Data Science & Machine Learning"
             time="2024-2025"
@@ -61,6 +54,22 @@ const Education = () => {
             place="National University of Singapore (NUS)"
             info="Relevant courses included Machine Learning, and Artificial Intelligence."
           /> */}
+          <Details
+            type="Bachelor Of Science (Hons), Data Science & Analytics"
+            time="2021-2024"
+            place="National University of Singapore (NUS)"
+            info="Relevant courses included Data Visualization, Data Engineering, 
+            Data Structures and Algorithms, Machine Learning, and Artificial Intelligence 
+            | Specialization in Operations Research"
+          />
+          <Details
+            type="Science"
+            time="2017-2018"
+            place="Anderson Junior College"
+            info="Relevant subjects included H3 Pharmaceutical Chemistry, H2 Physics, H2 Chemistry,
+            H2 Mathematics, H1 Economics, H1 Project Work, and H1 General Paper"
+          />
+          
         </u1>
       </div>
     </div>
